@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Refresh page",
+  "version": "0.1",
+  "description": "Permite recargar una pagina especifica despues de cierto 5 minutos de inactividad",
+  "author": "VLADIMIR",
+  "version_name": "La wacha",
+
+  "icons": {
+    "16": "assets/img/oso16.png",
+    "48": "assets/img/oso48.png",
+    "128": "assets/img/oso128.png"
+  },
+
+  "action": {
+    "default_title": "Click Me",  
+    "default_popup": "popup.html"  
+  }
+
+}

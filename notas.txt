@@ -1,0 +1,15 @@
+Al prinicipio vamos a realizar la estructura del proyecto
+
+- manifest.json
+Se archivo de configuracion de la extension, nombre, archivos que contiene, sitios donde carga la extension, comandos, permisos, etc.
+
+- Background Scripts
+el nombre lo dice todo
+
+- content Scripts
+Se ejecuta en el dom.
+
+- ui - options, popup
+la ventanita con opciones, como todas las extensiones
+
+- scripts adicionales
