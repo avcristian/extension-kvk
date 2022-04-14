@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
   </head>
   <body class="popup-body">
     <div class="popup-header">
-      <div class="title-wrapper">
-        <img src="./assets/img/oso128.png" alt="Oso" />
-        <div class="version" id="version"></div>
-      </div>
+      <img class="logo-img" src="./assets/img/oso128.png" alt="Oso" />
+      <div class="version" id="version">0.1</div>
     </div>
-    <div id="content-area"></div>
+    <div id="content-area">
+      <p class="time=text">Idle for <span class="secs"></span> seconds</p>
+
+      <p class="link">
+        <a href="#" class="goto-page">recargar pagina</a>
+      </p>
+    </div>
+    <script src="./assets/js/script.js"></script>
+
   </body>
 </html>
